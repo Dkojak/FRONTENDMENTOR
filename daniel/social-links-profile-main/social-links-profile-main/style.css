@@ -1,0 +1,56 @@
+body{
+     background-color: black;  
+     color: hsl(0, 0%, 100%);
+     font-family: cursive;
+
+}
+.photo{
+    /* margin-left: 5em; */
+    margin-top: 2em;
+    padding-top: 2em;
+    margin: auto;
+    height: 6em;
+    width: 6em;
+    
+}
+img{
+    height: 5em;
+    width: 5em;
+    border-radius: 3em;
+}h4{
+    color: hsl(75, 94%, 57%);
+}
+.main-wrapper{
+    margin: auto ;
+    margin-top: 90px;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    height: 40em;
+    width: 25em;
+    border-radius: 1rem;
+}
+button{
+    width: 22em;
+    height: 3.5em;
+    border-radius: 1em;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: cursive;
+    border-color: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+button:active{
+    background-color: hsl(75, 81%, 44%);
+}
+.attribution{
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+}

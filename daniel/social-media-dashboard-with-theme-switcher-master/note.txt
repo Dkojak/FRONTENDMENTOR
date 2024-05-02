@@ -1,0 +1,92 @@
+div meaning division's just a way we divide the webpage into parts and the class there is just like giving that part of the division a name so <div class="main-wrapper> just means that is the main division of the webpage 
+by pressing the alt and shift button simultaneously and pressing the down arrow the number of times I want to duplicate the line am currently on
+tangwulin2020
+git add . to add all the changes
+git commit -m "the changes that where made should be stated out here"
+git add (the name of the file to be added) to add a specific file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+assignments
+Based on what we have done so far carry out the following ;
+1. Create a simple portfolio website (you can add css styles to it using style attribute)
+2. The Portfolio website should have a headshot picture of yourself corporately dressed (Trads or Western)
+3. It should have your full name , email, linkdin profile link and , github link
+4 Add a section for a short bio of yourself.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Go to W3Schools html platform and do the following:
+1. Study the topics from HTML Formatting to HTML Iframes
+2. Practice all the exercises .
+3. Create your own examples in vscode in the class_1 folder index.html file
+
+
+
+
+
+
+
+
+
+
+
+
+1. Research and find out the reason for the acronyms ; HTML and CSS used to describe the 2 major technologies for web development
+
+
+
+1. Create a frontendmentor account if you don't have one and download the starter files for the news-homepage-main project. the link to the site and project are added  below.
+Make sure you create an account before clicking the second link. You can link your github account to signup.
+ Watch the video of the latest class on how to setup the project files.
+
+2.Edit the README.md to have you description of the work you are about to do using the README.template.md as a guide.
+
+3. Study W3schools from CSS BOX MODEL TO CSS ATTRIBUTE SELECTORS. Use the skills learnt to attempt developing the project
+
+Frontend Mentor | Front-end coding challenges using a real-life workflow
+https://www.frontendmentor.io/
+
+Frontend Mentor | News homepage hub
+https://www.frontendment
+
+
+
+
+
+
+
+
+
+Go to W3Schools CSS platform and do the following:
+1. Study the topics from CSS Selectors to CSS Box Model
+2. Practice all the exercises .
+3. Create your own examples in vscode in the class_assignment folder in a index.html and index.css file
+
+
+
+
+
+
