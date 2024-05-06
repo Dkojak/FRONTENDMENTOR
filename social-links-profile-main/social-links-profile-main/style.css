@@ -37,11 +37,13 @@ button{
     color: hsl(0, 0%, 100%);
     font-family: cursive;
     border-color: transparent;
-    transition: 1s;
+    transition: 0.5s;
     cursor: pointer;
 }
 button:hover{
     background-color: hsl(75, 94%, 57%);
+    height: 4em;
+    width: 24em;
 }
 button:active{
     background-color: hsl(75, 81%, 44%);
