@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(to right, blue,indigo,violet, pink);
+    color: #f5f5f5;
+    font-family: garamond;
+
+}
+
+.topnav {
+    background-image: linear-gradient(to right,green,blue,indigo,violet);
+    overflow: hidden;
+
+  }
+
+  .topnav a {
+    float: left;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: rgb(6, 70, 17);
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color:rgba(165, 42, 42, 0.733); 
+    color: white;
+  }
