@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.one{
+    height: 5rem;
+    background-color: burlywood;
+    border-radius: 3px;
+    margin: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.two{
+    height: 5rem;
+    background-color: burlywood;
+    margin: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.three{
+    height: 5rem;
+    background-color: burlywood;
+    margin: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.pa{
+    font-size: clamp(1rem, 2vw);
+}

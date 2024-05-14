@@ -1,0 +1,35 @@
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+  </div>
+  <style>
+  .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .grid-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  }
+  
+  
+  @media screen and (max-width: 960px) {
+  .grid-container {
+  grid-template-columns: 1fr;
+  }
+  
+  
+  .grid-item:nth-child(1) {
+  order: 2; /* Change the order of the first item */
+  }
+  
+  
+  .grid-item:nth-child(2) {
+  order: 1; /* Change the order of the second item */
+  }
+  }
+  </style>

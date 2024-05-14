@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body{
+    padding: 20px;
+    margin: 5rem 10rem 5rem 10rem;
+    background-color: hsl(36, 100%, 99%);
+    font-family: 'Inter',sans-serif;
+}
+
+
+.logo{
+width: 20px;
+}
+
+.navbar{
+    justify-content: top;
+    margin-top: -1.5rem;
+
+}
+
+ul {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    padding: 0px 15px 15px 15px;
+  }
+  
+ li:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+ } 
+
+ .main-wrapper{
+    border-style: solid;
+ }
+
+ .pic{
+    margin: none;
+    float: left;
+    width: 60% ;
+ }
+ .two{
+    width: 30%;
+    float: right\;
+ }
+
+ .two{
+    width: 17rem;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(240, 100%, 5%);
+    padding: 20px;
+    float: right;
+    margin-right: 1rem;
+    /* margin-top: -1.7rem; */
+ }
+
+ hr{
+    opacity: 50%;
+    height: 0.1px;
+ }
+
+ .three{
+    width: 15rem;
+    font-size: large;
+    color: hsl(240, 100%, 5%);
+ }
+ #den{
+    font-size: 45px;
+    font-weight: xx large;
+    font-style: bold;
+ }
+
+.four{
+    width: 18rem;
+    font-size: small;
+    position: relative;
+    left: 16rem;
+    bottom: 11rem;
+    opacity: 50%;
+}
+.read{
+    position: relative;
+    left: 16rem;
+    bottom: 9rem;
+    height: 2rem;
+    width: 8rem;
+    letter-spacing: 2px;
+    color: hsl(36, 100%, 99%);
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.pc{
+    height: 7rem;
+}
+.six{
+    position: relative;
+    left: 6rem;
+    bottom: 8.5rem;
+    width: 11rem;
+    height: 8rem;
+}
+.fiestpic{
+    color: hsl(236, 13%, 42%);
+    letter-spacing: 1px;
+    font-style: bold;
+    opacity: 50%;
+}
+.firstpic{
+    font-size: small;
+}
+.fest{
+    font-size: small;
+}
+
+.seven{
+    position: relative;
+    left: 9rem;
+    bottom: 8.2rem;
+    height: 7rem;
+}
+
+.siestpic{
+    position: relative;
+    left: 24.9rem;
+    bottom: 24.8rem;
+    color: hsl(236, 13%, 42%);
+    letter-spacing: 1px;
+    font-style: bold;
+    opacity: 50%;
+}
+
+.secpic{
+    position: relative;
+    left: 24.9rem;
+    bottom: 24rem;
+    font-size: small;
+}
+.sed{
+    position: relative;
+    left: 24.9rem;
+    bottom: 24.5rem;
+    font-size: small;
+    width: 10rem;
+}
+.nine{
+    position: relative;
+    left: 18rem;
+    bottom: 15.9rem;
+    height: 7rem;
+}
+
+.sce{
+    position: relative;
+    left: 43rem;
+    bottom: 40rem;
+    height: 7rem;
+    width: 14rem;
+}
+
+.we{
+    color: hsl(236, 13%, 42%);
+    letter-spacing: 1px;
+    font-style: bold;
+    opacity: 50%;
+}
+
+.be{
+    font-size: small;
+}
+
+colors{ 
+color:hsl(35, 77%, 62%);
+color:hsl(5, 85%, 63%);
+color: hsl(36, 100%, 99%);
+color: hsl(233, 8%, 79%);
+color: hsl(236, 13%, 42%);
+color: hsl(240, 100%, 5%);
+ } 
+
+ 
