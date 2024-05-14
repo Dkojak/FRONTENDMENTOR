@@ -6,7 +6,7 @@
     font-family: "Inter", sans-serif ;
 }
 body{
-    margin: 5rem;
+    margin:4rem;
     font-size: 
 }
 .logo{
@@ -129,13 +129,12 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* grid-gap: 20px; */
+    /* grid-gap: 20px;  */
     /* background-color: bisque; */
     /* border: solid; */
 }
 #img2{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: full-width;
 }
 #test{
     padding: 20px;
@@ -143,13 +142,13 @@ button{
 .grid-item1:nth-child(1){
     grid-column: 1/2;
     grid-row: 1/2;
-align-items: center;
-justify-content: center;
-display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 /* background-color: brown; */
 }
 #img3{
-    max-width: 100%;
+    max-width: full-width;
     max-height: 100%;
 }
 .grid-item1:nth-child(2){
@@ -157,21 +156,61 @@ display: flex;
     grid-row: 1/2;
     display: flex;
     align-items: center;
-justify-content: center;
-display: flex;
+    justify-content: center;
+    display: flex;
     }
     #img4{
-        max-width: 100%;
-        max-height: 100%;
+        max-width: full-width;
     }
     .grid-item1:nth-child(3){
         grid-column: 3/3;
         grid-row: 1/2;
         display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .h1{
+        display: none;
     }
     #grey{
         color: var(--grayish-blue);
     }
     #blue{
         color: var(--verydarkblue);
+        font-size: 12.59px;
+    }
+    @media screen and (max-width:800px){
+        body{
+            background-color: var(--soft-red);
+        }
+        .wrapper{
+            display: none;
+        }
+        .nav{
+            display: none;
+        }
+        .grid-container1{
+            display: none;
+        }
+        .attribution{
+            display: none;
+        }
+    }
+    @media screen and (max-width:500px){
+        body{
+            background-color: var(--soft-orange);
+        }
+        .wrapper{
+            display: none;
+        }
+        .nav{
+            display: none;
+        }
+        .grid-container1{
+            display: none;
+        }
+        .attribution{
+            display: none;
+        }
     }
