@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            max-width: 100%;
+            max-width: 100%;
+        }
+        .daniel1 {
+    grid-area: white;
+}
+.daniel2{
+  grid-area: red;
+}
+.daniel3{
+  grid-area: blue;
+}
+.daniel4{
+    grid-area: black;
+    font-size: clamp(10px 20px 20px);
+}
+.daniel5{
+    grid-area: brown;
+}
+.meta {
+  display: grid;
+  grid-template-areas: ' white  white black '
+                                    'red blue black'
+                                    ' brown  brown brown '
+  ;
+  grid-row: 1fr;
+  grid-column: 1fr;
+  grid-gap: 10px;
+  background-color: red;
+  padding: 10px;
+}
+
+.meta > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: clamp(5px, 2vw, 20px);
+}
+    </style>
+</head>
+<body>
+    <div class="meta">
+        <div class="daniel1">
+            <img src="/news-homepage-main (2)/news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="">
+        </div>
+        <div class="daniel2">2</div>
+        <div class="daniel3">3</div>
+        <div class="daniel4">
+            <h1 id="new"><p>New</p></h1>
+            <br><br>
+            <h3 id="fill">Hydrogen VS Electric Cars</h3>
+            <br>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <br>
+            <hr>
+            <br>
+            <h3 id="fill"><p>The Downsides of AI Artistry</p></h3>
+            <br>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            <br>
+            <hr>
+            <br>
+            <h3 id="fill"><p>Is VC Funding Drying Up?</p></h3>
+            <br>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+        <div class="daniel5">5</div>
+    </div>
+</body>
+</html>

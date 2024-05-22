@@ -1,38 +1,4 @@
-/* 
-
-
-
-/* *{ */
-    /* margin: 0; */
-    /* padding: 0; */
-    /* list-style: none; */
-    /* text-decoration: none; */
-/* } 
-.navbar{
-    justify-content: top;
-    margin-top: -1.5rem;
- }
- ul {    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-decoration: dashed;
-  }
-  
-  li {
-    float: right;
-    text-decoration: none;
-    padding: 0px 15px 15px 15px;
-  }
-  
- li:hover{
-    color: hsl(35, 77%, 62%);
-    cursor: pointer;
- } 
- */
-
- *{
+*{
     margin: 0;
     padding: 0;
 }

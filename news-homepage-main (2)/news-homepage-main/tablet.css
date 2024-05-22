@@ -55,9 +55,9 @@ body{
     display: grid;
     text-align: center;
     font-size: clamp(10px, 10px, 10px);
-    grid-template-areas: 'one one two'
-                                     'one one two'
-                                     'three four two'
+    grid-template-areas: 'one one one'
+                                     'three four .'
+                                     'two two two'
     ;
     grid-gap: 10px;
 }
@@ -128,7 +128,7 @@ button{
 }
 .grid-container1{
     max-width: 100%;
-    display: flex ;
+    display: grid;
     grid-template-areas: 'five six seven';
     font-size: clamp(5px 2vw, 10px);
     /* grid-gap: 20px;  */
@@ -183,36 +183,94 @@ button{
         color: var(--verydarkblue);
         font-size: 12.59px;
     }
-    @media screen and (max-width: 992px) {
-        .grid-container{
-            grid-template-areas: 'one one one'
-                                              'three four .'
-                                              'two two two'
-            ;
-        }
-       }
-       @media screen and ( max-width: 576px){
-        .grid-container{
-            grid-template-areas: 'one one .'
-                                              'three  three .'
-                                              'four four .'
-                                              'two two .'
-            ;
-        
-       }
-       
-       
-       .grid-container1{
-        max-width: 100%;
-        display: flex column;
-        grid-template-areas: 'five six seven';
-        font-size: clamp(5px 2vw, 10px);
-        /* grid-gap: 20px;  */
-        /* background-color: bisque; */
-        /* border: solid; */
-    }
-   
-   
-   
-   
-}
+    /* @media screen and (max-width:992px){ */
+        /* body{ */
+            /* padding: 3rem; */
+            /* margin: 0; */
+            /* font-size: clamp(5px, 2vw, 10px); */
+        /* } */
+        /* .wrapper{ */
+            /* display: ; */
+        /* } */
+        /* .nav{ */
+            /* display: ; */
+        /* } */
+        /* .grid-container{ */
+            /* grid-template-areas: 'one one two' */
+                                             /* 'one one two ' */
+                                             /* 'three four two' */
+            /* ; */
+        /* } */
+        /* .one{ */
+            /* grid-area: one; */
+        /* }.two{ */
+            /* grid-area: two; */
+        /* } */
+        /* .three{ */
+            /* grid-area: three; */
+        /* } */
+        /* .four{ */
+            /* grid-area: four; */
+        /* } */
+        /* .grid-container > div{ */
+        /* } */
+        /* .grid-container1{ */
+            /* font-size: small; */
+        /* } */
+        /* .attribution{ */
+            /* display: ; */
+        /* } */
+    /* } */
+    /* @media screen and (max-width:769px){ */
+        /* *{ */
+            /* margin: 0; */
+            /* padding: 0; */
+        /* } */
+        /* body{ */
+            /* display: grid; */
+            /* padding: 4rem; */
+        /* } */
+        /* .grid-container{ */
+            /* grid-template-areas:  */
+            /* 'one one one' */
+            /* 'three four .' */
+            /* 'two two two' */
+            /* ; */
+        /* } */
+        /* .one{ */
+            /* grid-area: one; */
+        /* }.two{ */
+            /* grid-area: two; */
+        /* } */
+        /* .three{ */
+            /* grid-area: three; */
+        /* } */
+        /* .four{ */
+            /* grid-area: four; */
+        /* } */
+    /* } */
+    /* @media screen and (max-width:500px){ */
+        /* body{ */
+            
+        /* } */
+        /* .wrapper{ */
+          
+        /* } */
+        /* .nav{ */
+            
+        /* } */
+        /* .grid-container1{ */
+            /* grid-template-areas:  */
+                    /* 'one one one' */
+                    /* 'two two two' */
+                    /* 'three three three' */
+                    /* 'four four four' */
+                    /* 'five five five' */
+                    /* 'six six six' */
+                    /* 'seven seven seven' */
+            /* ; */
+        /* } */
+        /* .attribution{ */
+            display: none;
+        /* } */
+    /* } */

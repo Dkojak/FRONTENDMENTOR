@@ -1,0 +1,151 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+:root{
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+
+}
+body{
+    
+}
+.main-wrapper{
+    padding: 2rem;
+}
+.nav{
+    display: hidden;
+}
+.nav > ul{
+
+}
+.nav > ul > li{
+    display: inline;
+}
+.nav > ul > li > a{
+    text-decoration: none;
+    display: none;
+}
+.nav > ul > li > a:checked{
+    display: block;
+}
+.hamburger{
+    float: right;
+    padding: .7rem;
+}
+.taiwo{
+    color:var(--Very-dark-blue  );
+    font-size:  40px;
+}
+.kehinde{
+    color: var(--Dark-grayish-blue);
+}
+.reead{
+    width: 7rem;
+    height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+    border-color: transparent;
+}
+.cwide-zero{
+    max-width: 100%;
+    max-height: 100%;
+}
+.wide-zero{
+    max-width: 100%;
+    max-height: 100%;
+}
+.cwide-one{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.wide-one{
+    max-width: 100%;
+    max-height: 100%;
+}
+.test2{
+    justify-content: center;
+    margin-left: 1rem;
+}
+.cwide-two{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.wide-two{
+    max-width: 100%;
+    max-height: 100%;
+}
+.cwide-three{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+}
+.wide-three{
+    max-width: 100%;
+    max-height: 100%;
+}
+.test0{
+    float: right;
+}
+.grid-layout{
+    display: grid;
+    grid-template-areas: 
+    'one'
+    'two'
+    'three'
+    'four'
+    'five'
+    'six'
+    ;
+    grid-gap: 10px;
+    max-width: 100%;
+}
+.ray1{
+    grid-area: one;
+    size: 1fr;
+}
+.ray2{
+    grid-area: two;
+}
+.ray3{
+    grid-area: three;
+    color: var(--Off-white);
+    background-color: var(--Very-dark-blue);
+    padding: 1rem;
+}
+.ray4{
+    grid-area: four;
+    justify-content: space-between;
+    display: flex;
+}
+.ray5{
+    grid-area: five;
+    display: flex;
+}
+.ray6{
+    grid-area: six;
+    display: flex;
+}
+.i{
+    color: var(--Grayish-blue);
+    font-size: 50px;
+}
+.ii{
+    color: var(--Very-dark-blue);
+}
